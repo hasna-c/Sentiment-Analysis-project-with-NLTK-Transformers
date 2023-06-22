@@ -1,1 +1,4 @@
 # Sentiment-Analysis-project-with-NLTK-and-Transformers
+
+
+This project aims to perform sentiment analysis on Amazon reviews using various techniques. It starts by implementing VADER (Valence Aware Dictionary and Sentiment Reasoner), a bag of words approach using the Natural Language Toolkit (NLTK) library. VADER assigns sentiment scores to words and calculates an overall sentiment score for each review. Additionally, a more advanced approach is applied by leveraging a pre-trained Roberta model from the Hugging Face library. The Roberta model is fine-tuned on the specific task of sentiment analysis for Amazon reviews. Furthermore, the project explores the usage of Hugging Face's pre-trained pipeline, providing a convenient and quick way to analyze sentiment. The dataset used in this project is sourced from Kaggle and consists of fine food reviews on Amazon, along with ratings on a scale of 1 to 5 stars. The performance of VADER and Roberta model compared after.
